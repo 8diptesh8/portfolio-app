@@ -15,12 +15,12 @@ const Contact = () => {
   .map(({ id, url, img, text, title, text2 }) => {
     return (
       <div className="contactDetails" key={id}>
-        <a href={url} className={`${text} ${text2}`}>
+        <a href={url} target="_blank" rel="noopener noreferrer" className={`${text} ${text2}`}>
           <img src={img} alt={text} />
         </a>
 
         <div className="ctTxt">
-          <a href={url}>
+          <a href={url} target="_blank" rel="noopener noreferrer">
             <p>{title}</p>
           </a>
         </div>
