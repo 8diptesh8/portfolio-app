@@ -16,7 +16,7 @@ const Footer = () => {
   
  </ul>
 
-<p>Copyright © 2024 Diptesh Teli. All Rights Reserved</p>
+<p>Copyright © {new Date().getFullYear()} Diptesh Teli. All Rights Reserved</p>
 </div>
 </footer>
   )
