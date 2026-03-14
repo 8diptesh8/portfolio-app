@@ -8,7 +8,7 @@ const Profile = () => {
       <div className="container">
         <div className="row">
           <div data-aos="flip-left" data-aos-duration="2000" className="col-xl-4 profileProfImg">
-            <img className="profileImg" src={profileImage} alt="profile-image"/>
+            <img className="profileImg" src={profileImage} height = "400" fetchpriority="high" alt="profile-image"/>
           </div>
           <div className="col-xl-4 profileProfCont">
             <div className="profileProf">
