@@ -18,6 +18,7 @@ const Profile = () => {
               <div className="profileSocial">
                 <Social/>
               </div>
+
               <div className="profileBtn"><a className="profileCV" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/16Uh2W_jMFcGEss78XUVkpGK274FwE4Tw/view?usp=sharing">Download CV</a></div>
             </div>
           </div>
